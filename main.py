@@ -5,6 +5,6 @@ if __name__ == "__main__":
     threads = mythread.start_threads()
     for t in threads:
         t.join()
-    print("all thread over")
+    print("all threads over")
 
 
